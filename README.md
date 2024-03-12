@@ -1,5 +1,5 @@
-# DINES
-This is the official implementation of **DINES** (Disentangled Neural Networks for Signed Digraph). 
+# SBGDL
+This is the official implementation of **SBGDL** (Disentangled Representation Learning for Signed Bipartite Graphs). 
 
 * Learning Disentangled Representations in Signed Directed Graphs without Social Assumptions <br/>
   Geonwoo Ko and Jinhong Jung<br/>
