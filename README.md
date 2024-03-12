@@ -1,12 +1,11 @@
 # SBGDL
 This is the official implementation of **SBGDL** (Disentangled Representation Learning for Signed Bipartite Graphs). 
 
-* Learning Disentangled Representations in Signed Directed Graphs without Social Assumptions <br/>
-  Geonwoo Ko and Jinhong Jung<br/>
-  Information Sciences (accepted)
-* The pre-print version is available at [here](https://arxiv.org/abs/2307.03077).
+
 
 ## Overview
+
+
 
 
 ## Prerequisites
