@@ -1,7 +1,7 @@
 # SBGDL
 This is the official implementation of **SBGDL** (Disentangled Representation Learning for Signed Bipartite Graphs). 
 
-![image](https://github.com/wangxiaosong96/PDDGCN/blob/main/flow%20chart.png)
+![image](https://github.com/wangxiaosong96/SBGDL/blob/main/SBGDL/graph3.png)
 
 ## Overview
 
