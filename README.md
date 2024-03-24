@@ -57,7 +57,7 @@ This trains DINES on the `BC_ALPHA` dataset with the hyperparameters stored at `
 After the training phase completes, the trained model is saved as `encoder.pt` and `decoder.pt` at the folder `./output/BC_ALPHA`. 
 Then, it evaluates the trained model on the link sign prediction task in terms of AUC and Macro-F1.
 
-## Pre-trained DINES
+## Pre-trained SBGDL
 We provide pre-trained models of DINES for each data stored at `./pretrained/${DATASET}` folder where the file names are `encoder.pt` and `decoder.pt`.
 The hyperparameters used for training them are reported in the Appendix section of the paper, and they are saved in `./pretrained/${DATASET}/config.json`.
 
