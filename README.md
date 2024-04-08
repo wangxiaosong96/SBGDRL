@@ -61,7 +61,7 @@ Then, it evaluates the trained model on the link sign prediction task in terms o
 We provide pre-trained models of DINES for each data stored at `./pretrained/${DATASET}` folder where the file names are `encoder.pt` and `decoder.pt`.
 The hyperparameters used for training them are reported in the Appendix section of the paper, and they are saved in `./pretrained/${DATASET}/config.json`.
 
-## Results of Pre-trained DINES
+## Results of Pre-trained SBGDL
 The results of the pre-trained models are as follows:
 |**Dataset**|**AUC**|**Macro-F1**|
 |:-:|:-:|:-:|
