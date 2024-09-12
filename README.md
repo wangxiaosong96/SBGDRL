@@ -43,25 +43,13 @@ You can run the simple demo by typing the following command in your terminal:
 bash demo.sh
 ```
 
-This trains DINES on the `BC_ALPHA` dataset with the hyperparameters stored at `./pretrained/BC_ALPHA/config.json`. 
+This trains SBGDRL on the `BC_ALPHA` dataset with the hyperparameters stored at `./pretrained/BC_ALPHA/config.json`. 
 After the training phase completes, the trained model is saved as `encoder.pt` and `decoder.pt` at the folder `./output/BC_ALPHA`. 
 Then, it evaluates the trained model on the link sign prediction task in terms of AUC and Macro-F1.
 
 ## Pre-trained SBGDRL
 We provide pre-trained models of DINES for each data stored at `./pretrained/${DATASET}` folder where the file names are `encoder.pt` and `decoder.pt`.
 The hyperparameters used for training them are reported in the Appendix section of the paper, and they are saved in `./pretrained/${DATASET}/config.json`.
-
-## Results of Pre-trained SBGDL
-The results of the pre-trained models are as follows:
-|**Dataset**|**AUC**|**Macro-F1**|
-|:-:|:-:|:-:|
-|**BC_ALPHA**|0.937|0.789|
-|**BC_OTC**|0.950|0.860|
-|**WIKI_RFA**|0.914|0.786|
-|**SLASHDOT**|0.927|0.831|
-|**EPINIONS**|0.967|0.895|
-
-All experiments are conducted on RTX 3090 (24GB) with cuda version 12.0, and the above results were produced with the random seed `seed=1`.
 
 ## How to Reproduce the Above Results with the Pre-traied Models
 You can reproduce the results the following command which evaluates a test dataset using a pre-trained model.
