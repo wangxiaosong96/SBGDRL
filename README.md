@@ -46,6 +46,13 @@ The details of datasets are provided in the following table:
 * $\|\mathcal{E}\|$: the number of edges
 * $\|\mathcal{E}^{+}\|$ and $\|\mathcal{E}^{-}\|$: the numbers of positive and negative edges, respectively
 * $p$(+): the ratio of positive edges
+  
+Dataset	U	V	Positive Edges	Negative Edges	|ε|
+Review	182	304	0.403	0.597	1,170
+Bonanza	7919	1973	0.980	0.020	36,543
+ML-1M	6,040	3,952	0.575	0.425	1,000,209
+Amazon-Book	35,736	38,121	0.806	0.194	1,960,674
+![image](https://github.com/user-attachments/assets/584ed5c4-c45a-4705-90e9-8aab7511eba3)
 
 ## Demo
 You can run the simple demo by typing the following command in your terminal:
