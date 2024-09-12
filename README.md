@@ -35,23 +35,6 @@ You can find raw datasets at `./data/${DATASET}` folder where the file's name is
 The `${DATASET}` is one of `BC_ALPHA`, `BC_OTC`, `WIKI_RFA`, `SLASHDOT`, and `EPINIONS`.
 This file contains the list of signed edges where each line consists of a tuple of `(src, dst, sign)`.
 The details of datasets are provided in the following table:
-|**Dataset**|**$\|\mathcal{V}\|$**|**$\|\mathcal{E}\|$**|**$\|\mathcal{E}^{+}\|$**|**$\|\mathcal{E}^{-}\|$**|**$p$(+)**|
-|:-:|-:|-:|-:|-:|:-:|
-|[BitcoinAlpha](https://snap.stanford.edu/data/soc-sign-bitcoin-alpha.html)|3,783|24,186|22,650|1,536|93.6|
-|[BitcoinOTC](https://snap.stanford.edu/data/soc-sign-bitcoin-otc.html)|5,881|35,592|32,029|3,563|90.0|
-|[Wiki-RFA](https://snap.stanford.edu/data/wiki-RfA.html)|11,258|178,096|138,473|38,623|78.3|
-|[Slashdot](http://konect.cc/networks/slashdot-zoo)|79,120|515,397|392,326|123,255|76.1|
-|[Epinions](https://snap.stanford.edu/data/soc-sign-epinions.html)|131,828|841,372|717,667|123,705|85.3|
-* $\|\mathcal{V}\|$: the number of nodes
-* $\|\mathcal{E}\|$: the number of edges
-* $\|\mathcal{E}^{+}\|$ and $\|\mathcal{E}^{-}\|$: the numbers of positive and negative edges, respectively
-* $p$(+): the ratio of positive edges
-  
-Dataset	U	V	Positive Edges	Negative Edges	|ε|
-Review	182	304	0.403	0.597	1,170
-Bonanza	7919	1973	0.980	0.020	36,543
-ML-1M	6,040	3,952	0.575	0.425	1,000,209
-Amazon-Book	35,736	38,121	0.806	0.194	1,960,674
 ![image](https://github.com/user-attachments/assets/584ed5c4-c45a-4705-90e9-8aab7511eba3)
 
 ## Demo
