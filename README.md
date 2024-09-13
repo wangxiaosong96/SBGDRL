@@ -35,6 +35,7 @@ You can find raw datasets at `./data/${DATASET}` folder where the file's name is
 The `${DATASET}` is one of `Review`, `Bonanza`, `ML-1M`, and `Amazon-Book`.
 This file contains the list of signed edges where each line consists of a tuple of `(src, dst, sign)`.
 The details of datasets are provided in the following table:
+
 ![image](https://github.com/user-attachments/assets/584ed5c4-c45a-4705-90e9-8aab7511eba3)
 
 ## Demo
